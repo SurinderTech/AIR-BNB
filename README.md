@@ -1,14 +1,5 @@
 # Airbnb-Inspired Full-Stack Web Application 🚀
 
-<p align="center">
-  <b style="color: blue;  ">Visitor count</b>
-  <br>
-  <a style="" href="https://github.com/Rakhisan">
-  <img src="https://profile-counter.glitch.me/Airbnb--Project/count.svg" />
-  </a>
-</p>
-
----
 
 ## Table of Contents
 
@@ -99,11 +90,12 @@ A heartfelt thank you to Shradha Khapra didi and AMAN DHATTARWAL bhaiya at #Apna
 
 ## Author
 
-Rakhi Singh \
-Email: rakhisingh030118@gmail.com \
-LinkedIn : https://www.linkedin.com/in/rakhisingh23/
+surinder kumar
+Email: surinderkumar3182@gmail.com
+LinkedIn : www.linkedin.com/in/
+surinder-kumar-948343321
 
-## Thank You
+
 
 Thank you for exploring Airbnb! Your feedback is valuable. If you have any suggestions or thoughts, feel free to share them with us. 😊
 
