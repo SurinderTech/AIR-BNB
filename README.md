@@ -101,8 +101,7 @@ A heartfelt thank you to Shradha Khapra didi and AMAN DHATTARWAL bhaiya at #Apna
 
 Surinder kumar  \
 Email: surinderkumar3182@gmail.com \
-LinkedIn :www.linkedin.com/in/
-surinder-kumar-948343321
+LinkedIn https://www.linkedin.com/in/surinder-kumar-948343321/
 
 
 ## Thank You
