@@ -1,112 +1,155 @@
-# Airbnb-Inspired Full-Stack Web Application 🚀
+# Airbnb-Inspired Full-Stack Web Application 🏡✨
 
 <p align="center">
-  <b style="color: blue;  ">Visitor count</b>
+  <b>👀 Visitor Count</b>
   <br>
-  <a style="" href="https://github.com/Rakhisan">
+  <a href="Rakhisan">
   <img src="https://profile-counter.glitch.me/Airbnb--Project/count.svg" />
   </a>
 </p>
 
 ---
 
-## Table of Contents
-
--   [Project Overview](#project-overview)
--   [Technologies & Packages Used](#technologies--packages-used)
--   [Key Features](#key-features)
--   [Challenges & Solutions](#challenges--solutions)
--   [Special Thanks](#special-thanks)
--   [Author](#author)
--   [Project Link](#project-link)
--   [Thank You](#thank-you)
-
-
-## Project Overview
-
-Excited to share my journey of developing a feature-rich full-stack web application inspired by Airbnb. The project is built using MongoDB, Express.js, and Node.js.
-
-## Technologies & Packages Used
-
-### Backend
-
--   **MongoDB**: NoSQL database for flexible and scalable data storage.
--   **Express.js**: Web application framework for Node.js, providing robust features for web and mobile applications.
--   **Node.js**: JavaScript runtime for server-side development.
-
-### Authentication
-
--   **Passport.js**: Middleware for user authentication, supporting various strategies.
--   **Dotenv**: Environment variable management for secure configuration.
-
-### Image Storage
-
--   **Cloudinary**: Cloud-based image and video management solution.
-
-### Maps
-
--   **Mapbox**: Platform for custom maps and location-based experiences.
-
-### Frontend
-
--   **EJS**: Embedded JavaScript templates for dynamic content rendering.
-
-### Session Management
-
--   **Connect Flash**: Middleware for flash messages.
--   **Connect Mongo**: MongoDB session store for Express.js.
--   **Cookie Parser**: Middleware for parsing cookies.
-
-### Validation
-
--   **Joi**: Library for data validation.
-
-### Object Modeling
-
--   **Mongoose**: MongoDB object modeling for Node.js.
-
-### File Uploads
-
--   **Multer**: Middleware for handling file uploads.
-
-### Social Authentication
-
--   **Passport Local**: Local authentication strategy.
--   **Passport Facebook**: Facebook authentication strategy.
--   **Passport Google OAuth20**: Google OAuth2.0 authentication strategy.
--   **Passport Local Mongoose**: Mongoose-specific authentication strategy.
-    Authentication
-
-## Key Features
-
--   **User Authentication:** Login, Logout, and User Profile Section
--   **CRUD Operations:** Add, Edit, and Delete Listings
--   **Review System:** Add and Delete Reviews
--   **Account Management:** Update User Account and Password
--   **User Data Security:** Password Hashing and Encryption
--   **Interactive Maps:** Leveraging Mapbox for Location Visualization
--   **Login with Google:** Authenticate with your Google account for a seamless experience
--   **Login with Facebook:** Easily log in using your Facebook credentials
--   **Login with Email:** Traditional email login for user convenience
-
-## Challenges & Solutions
-
-Encountered challenges, especially with data handling, but implemented efficient solutions. Overcame scalability issues with a well-architected backend.
-
-## Special Thanks
-
-A heartfelt thank you to Shradha Khapra didi and AMAN DHATTARWAL bhaiya at #ApnaCollege for their invaluable support and collaboration. As mentors and teachers, your guidance has been instrumental in shaping the success of this project. Your dedication to fostering learning and innovation has made a lasting impact, and I'm grateful for the opportunity to learn and grow under your mentorship.
-
-## Author
-
-Surinder kumar  \
-Email: surinderkumar3182@gmail.com \
-LinkedIn https://www.linkedin.com/in/surinder-kumar-948343321/
-
-
-## Thank You
-
-Thank you for exploring Airbnb! Your feedback is valuable. If you have any suggestions or thoughts, feel free to share them with us. 😊
+## 🧭 Table of Contents
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [Setup & Installation](#setup--installation)
+- [Environment Variables](#environment-variables)
+- [Run the Project](#run-the-project)
+- [Project Structure](#project-structure)
+- [Challenges](#challenges)
+- [Contributing](#contributing)
+- [Author](#author)
+- [Acknowledgements](#acknowledgements)
 
 ---
-### Thanks for visit... 😊😊😊
+
+## 📝 Overview
+A scalable, dynamic, and feature-rich full-stack web app inspired by **Airbnb**, built using **MongoDB, Express.js, Node.js, and EJS**, supporting email & social authentication with interactive maps and cloud media storage.
+
+---
+
+## 🧰 Tech Stack
+**Backend:** MongoDB, Express.js, Node.js, Mongoose  
+**Auth:** Passport.js (Local, Google OAuth 2.0, Facebook) + session storage  
+**Media:** Cloudinary + Multer  
+**Maps:** Mapbox  
+**Validation:** Joi  
+**Frontend:** EJS + Bootstrap/CSS  
+**Config:** dotenv, cookie-parser, connect-flash, connect-mongo  
+
+---
+
+## ⚡ Features
+- Secure user authentication (Email, Google, Facebook)
+- Listings with full **CRUD**
+- Review & rating system
+- Password hashing + encryption
+- Map-based location visualization
+- Session persistence with MongoDB
+- Cloud image storage
+- Flash notifications
+- Profile + account management
+
+---
+
+## 🛠 Setup & Installation
+
+1. **Clone the repository**
+
+```
+git clone <project_repo_link>
+```
+```
+cd <project_folder_name>
+```
+<h1>Install dependencies</h1>
+
+
+bash
+Copy code
+```
+npm install
+```
+Setup MongoDB
+
+Make sure MongoDB is running locally or use MongoDB Atlas.
+
+Start the development server
+
+bash
+Copy code
+```
+npm start
+```
+# or
+nodemon app.js
+🔐 Environment Variables
+Create a .env file in the root directory and add:
+
+env
+Copy code
+PORT=8080
+MONGO_URI=your_mongodb_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+MAPBOX_TOKEN=your_mapbox_token
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+FACEBOOK_CLIENT_ID=your_facebook_client_id
+FACEBOOK_CLIENT_SECRET=your_facebook_client_secret
+SESSION_SECRET=your_session_secret
+▶ Run the Project
+bash
+Copy code
+npm run dev      # development mode
+npm start        # normal start
+Then open in browser:
+
+arduino
+Copy code
+http://localhost:8080
+📁 Project Structure (Example)
+bash
+Copy code
+Airbnb-Project/
+│── models/           # MongoDB schemas
+│── views/            # EJS frontend pages
+│── public/           # CSS, JS, images
+│── routes/           # App routes
+│── controllers/      # Core business logic
+│── app.js            # Main server file
+│── .env              # Config file
+│── package.json
+🚧 Challenges
+Handled data scalability, optimized backend architecture, and resolved complex data relationships using Mongoose & session storage, ensuring smooth social authentication and fast map rendering.
+
+🤝 Contributing
+Contributions are welcome!
+
+Fork the project
+
+Create a feature branch (git checkout -b feature/AmazingFeature)
+
+Commit changes (git commit -m "Add feature")
+
+Push to branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+👨‍💻 Author
+Surinder Kumar
+📧 Email: your email
+🔗 LinkedIn: surinder-kumar-948343321/
+
+🙏 Acknowledgements
+Special thanks to Shradha Khapra didi & Aman Dhattarwal bhaiya from #ApnaCollege for mentorship and guidance that helped shape this project.
+
+⭐ If you like this project, consider giving it a Star!
+Thanks for visiting! 😊
+Happy Coding & Building 🚀♟️
+
+yaml
+Copy code
