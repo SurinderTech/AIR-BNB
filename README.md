@@ -141,7 +141,7 @@ Open a Pull Request
 
 👨‍💻 Author
 Surinder Kumar
-📧 Email: your email
+📧 Email: surinderkumar3182@gmail.com
 🔗 LinkedIn: surinder-kumar-948343321/
 
 🙏 Acknowledgements
