@@ -167,9 +167,9 @@ Push to branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-👨‍💻 Author
+👨‍💻 Author:<br>
 Surinder Kumar
-📧 Email: surinderkumar3182@gmail.com
+📧 Email: surinderkumar3182@gmail.com<br>
 🔗 LinkedIn: surinder-kumar-948343321/
 
 🙏 Acknowledgements
