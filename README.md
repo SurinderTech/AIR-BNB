@@ -89,9 +89,8 @@ nodemon app.js
 
 Create a .env file in the root directory and add:
 
-env
-Copy code
-PORT=8080
+
+PORT=8080<br>
 MONGO_URI=your_mongodb_connection_string
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
