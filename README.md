@@ -95,19 +95,41 @@ MONGO_URI=your_mongodb_connection_string
 
 
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name<br>
+
+
 CLOUDINARY_API_KEY=your_api_key
+
+
 CLOUDINARY_API_SECRET=your_api_secret
+
+
 MAPBOX_TOKEN=your_mapbox_token
+
+
 GOOGLE_CLIENT_ID=your_google_client_id
+
+
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+
 FACEBOOK_CLIENT_ID=your_facebook_client_id
+
+
 FACEBOOK_CLIENT_SECRET=your_facebook_client_secret
+
+
 SESSION_SECRET=your_session_secret
+
+
 ▶ Run the Project
-bash
-Copy code
-npm run dev      # development mode
-npm start        # normal start
+```
+npm run dev  
+```
+### development mode
+```
+npm start      
+```
+
 Then open in browser:
 
 arduino
