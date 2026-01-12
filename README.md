@@ -92,7 +92,9 @@ Create a .env file in the root directory and add:
 
 PORT=8080<br>
 MONGO_URI=your_mongodb_connection_string
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+
+
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name<br>
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 MAPBOX_TOKEN=your_mapbox_token
