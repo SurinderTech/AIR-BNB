@@ -130,11 +130,12 @@ npm run dev
 npm start      
 ```
 
-Then open in browser:
+Then open in browser:<br>
 
-arduino
-Copy code
+
 http://localhost:8080
+
+```
 📁 Project Structure (Example)
 bash
 Copy code
@@ -147,6 +148,9 @@ Airbnb-Project/
 │── app.js            # Main server file
 │── .env              # Config file
 │── package.json
+
+```
+
 🚧 Challenges
 Handled data scalability, optimized backend architecture, and resolved complex data relationships using Mongoose & session storage, ensuring smooth social authentication and fast map rendering.
 
