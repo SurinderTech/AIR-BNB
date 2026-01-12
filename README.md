@@ -25,7 +25,7 @@
 
 ---
 
-## 📝 Overview
+### 📝 Overview
 A scalable, dynamic, and feature-rich full-stack web app inspired by **Airbnb**, built using **MongoDB, Express.js, Node.js, and EJS**, supporting email & social authentication with interactive maps and cloud media storage.
 
 ---
@@ -85,7 +85,8 @@ npm start
 ```
 # or
 nodemon app.js
-🔐 Environment Variables
+### 🔐 Environment Variables
+
 Create a .env file in the root directory and add:
 
 env
