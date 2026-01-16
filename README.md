@@ -154,8 +154,7 @@ Airbnb-Project/
 🚧 Challenges
 Handled data scalability, optimized backend architecture, and resolved complex data relationships using Mongoose & session storage, ensuring smooth social authentication and fast map rendering.
 
-🤝 Contributing
-Contributions are welcome!
+<h1>Contributions are welcome!</h1>
 
 Fork the project
 
