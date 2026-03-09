@@ -1,11 +1,8 @@
 # Airbnb-Inspired Full-Stack Web Application 🏡✨
-
 <p align="center">
   <b>👀 Visitor Count</b>
   <br>
-  <a href="Rakhisan">
-  <img src="https://profile-counter.glitch.me/Airbnb--Project/count.svg" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=Rakhisan&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
 ---
